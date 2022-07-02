@@ -19,7 +19,6 @@ public class DoublePointer_344_反转字符串 {
           right--;
       }
     }
-
     public static void main(String[] args) {
         char[] s = {'h','e','l','l','o'};
         reverseString(s);
