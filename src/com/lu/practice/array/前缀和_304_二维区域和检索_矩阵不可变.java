@@ -27,7 +27,7 @@ public class 前缀和_304_二维区域和检索_矩阵不可变 {
             {1,1,1},
             {1,1,1}
         };
-     int b = new 前缀和_304_二维区域和检索_矩阵不可变(a).sumRegion(0,0,1,1);
+        int b = new 前缀和_304_二维区域和检索_矩阵不可变(a).sumRegion(0,0,1,1);
         System.out.println(b);
     }
-}
+ }
