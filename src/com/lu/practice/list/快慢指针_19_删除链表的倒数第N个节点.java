@@ -4,9 +4,10 @@ package com.lu.practice.list;
  * @Author lupeng
  * @Date 2022/8/5
  * 倒数第k = n-k+1
- * 先走k 剩n-k
+ * 第一个指针先走k
+ * 后两个指针同时走，第一个指针走完，第二个指针剩k没走
  */
-public class 快慢指针_19_删除链表的倒数第N个节点 {
+public class  快慢指针_19_删除链表的倒数第N个节点 {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode dumy = new ListNode(-1);
         dumy.next = head;
